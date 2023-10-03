@@ -24,7 +24,9 @@ h1 {
 
 
 
-
+.profile-pic {
+    width: 50%;
+}
 /* # ID selector
 - Select an element that has has the ID - remember you can only have one unique ID per page */
 
