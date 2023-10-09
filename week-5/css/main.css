@@ -68,7 +68,9 @@ h1 {
 
 /* :last-child
 - Select the element when it’s the last inside its parent. */
-
+ul li:last-child {
+    background-color: rgba(7, 17, 61, 0);
+}
 
 
 /* :first-of-type
