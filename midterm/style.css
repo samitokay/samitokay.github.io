@@ -1,5 +1,5 @@
 img {
-    width: 60%;
+    width: 61%;
     margin: 1px auto;
     display:block
   
@@ -60,11 +60,11 @@ img {
   .content{
     width: 10%;
     background-color: #dcfcf8;
-    padding: 480px;
+    padding: 375px;
     margin-top: 0px;
     margin-bottom: 200px;
-    margin-right: 120px;
-    margin-left: 375px;
+    margin-right: 250px;
+    margin-left: 285px;
   }
   
 
