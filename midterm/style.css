@@ -68,37 +68,3 @@ img {
 .content p {
     font-size: 1rem;
 }
-
-.navbar ul {
-  list-style: none;
-  background: #dcfcf8;
-  padding: 0;
-  margin: 0;
-  text-align:center;
-
-}
-
-.navbar li {
-  display: inline-block;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  width: 100px;
-  display: block;
-  padding: 20px 200px;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-
-}
-
-
-   
-  
-  
-  
-
-  
