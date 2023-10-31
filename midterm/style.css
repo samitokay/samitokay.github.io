@@ -54,7 +54,7 @@ img {
 .content {
     background-color: #dcfcf8;
     padding: 300px;
-    text-align: center;
+    
     margin-top: 0%;
     margin-bottom: 100%;
     margin-left: 25%;
@@ -76,15 +76,15 @@ img {
 
 .navigation ul {
   list-style: none;
-  padding: 0px;
-  margin: 0px;
-  display: flex; 
-  justify-content: center; 
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation li {
-  
-  display: inline-block; 
+  margin: 0 20px;
+  display: inline-block;
 }
 
 .navigation a {
@@ -93,10 +93,5 @@ img {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 50px 50px; 
+  padding: 10px 20px;
 }
-
-
-
-
-
