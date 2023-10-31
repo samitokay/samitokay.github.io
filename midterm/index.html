@@ -9,7 +9,8 @@
     <title>Lone Starfish</title>
 </head>
 
-    <body>
+<body>
+    <div class="container">
         <div class="header-container">
             <img class="background-image" src="/img/lone-starfish-wide.jpg" alt="">
             <h1 class="header-text">Lone Starfish</h1>
@@ -33,11 +34,37 @@
                 <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             </ul>
+            <h4>Contact to Learn More</h4>
+            <div class="content">
+                <form action="submit_form.php" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name "email" required>
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <label>Would you like to visit the starfish?</label>
+                    <select name="visit_starfish">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="maybe">Maybe</option>
+                    </select>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <footer>
+                <p>&copy; 2023 Lone Starfish</p>
+            </footer>
         </div>
-  
-          
-       
-    </body>
+    </div>
+</body>
+
+</html>
+
 
 
 </html>
