@@ -79,15 +79,9 @@ h3 {
   padding: 10px 20px;
 }
 
-.starfish-facts {
-  list-style: none; /* Remove default list styles */
-  padding: 0; /* Remove default list padding */
-}
 
-.starfish-facts li {
-  display: inline; /* Display list items horizontally */
-  margin-right: 20px; /* Add some spacing between list items (adjust as needed) */
-}
+
+
 
 
 
