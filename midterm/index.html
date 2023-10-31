@@ -28,8 +28,8 @@
         
         
             <h3>Facts about Starfish</h3>
-            <div class="starfish-facts">
-            <ul>
+             
+            <ul class="starfish-facts">
                 <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
@@ -39,24 +39,23 @@
             <div class="content">
                 <form action="submit_form.php" method="post">
                     <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    
+                    <input type="text" id="name" name="name" required><br>
+            
                     <label for="email">Your Email:</label>
-                    <input type="email" id="email" name "email" required>
-                    
+                    <input type="email" id="email" name="email" required><br>
+            
                     <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    
-                    <label>Would you like to visit the starfish?</label>
-                    <select name="visit_starfish">
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                        <option value="maybe">Maybe</option>
-                    </select>
-                    
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+                    <label for="visit">Would you like to visit the starfish?</label><br>
+                    <label><input type="radio" id="yes" name="visit_starfish" value="yes"> Yes</label><br>
+                    <label><input type="radio" id="no" name="visit_starfish" value="no"> No</label><br>
+                    <label><input type="radio" id="maybe" name="visit_starfish" value="maybe"> Maybe</label><br>
+            
                     <input type="submit" value="Send">
                 </form>
             </div>
+            
             <footer>
                 <p>&copy; 2023 Lone Starfish</p>
             </footer>
@@ -66,6 +65,3 @@
 
 </html>
 
-
-
-</html>
