@@ -19,6 +19,7 @@ header img {
   height: auto;
 }
 
+
 nav ul {
   display: flex;
   flex-direction: column; 
@@ -117,6 +118,8 @@ nav ul li a:hover {
   header {
       flex-direction: column;
   }
+
+  
 
   .search-bar {
       width: 95%;
