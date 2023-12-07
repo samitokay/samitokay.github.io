@@ -12,13 +12,13 @@ header {
   align-items: center;
   padding: 10px 0;
   background-color: #222;
+  overflow: hidden;
 }
 
 header img {
   width: 100px;
   height: auto;
 }
-
 
 nav ul {
   display: flex;
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: white;
+  background-color: #c78c06;
 }
 
 .search-bar {
@@ -118,8 +118,12 @@ nav ul li a:hover {
   header {
       flex-direction: column;
   }
-
-  
+   
+  nav ul li a:hover {
+  background-color: #c78c06;
+  color: #222;
+    
+ }
 
   .search-bar {
       width: 95%;
