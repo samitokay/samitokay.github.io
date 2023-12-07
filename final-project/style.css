@@ -1,8 +1,9 @@
 body {
+  font-family: 'Open Sans';
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #222;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: white;
 }
 
 header img {
@@ -19,19 +20,24 @@ header img {
 
 nav ul {
   display: flex;
+  flex-direction: column; /* Updated to make it vertical */
   list-style: none;
   padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 5px; /* Optional: Add some spacing between vertical items */
 }
 
 nav ul li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  color: #333;
+  color: #222;
 }
 
 nav ul li a:hover {
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 .search-bar {
@@ -41,19 +47,19 @@ nav ul li a:hover {
 .search-bar input[type="text"] {
   padding: 8px 10px;
   width: 150px;
-  border: 1px solid #ddd;
+  border: 1px solid white;
 }
 
 .search-bar button {
   padding: 8px 10px;
-  background-color: #333;
-  color: #fff;
+  background-color: #222;
+  color: white;
   border: none;
   cursor: pointer;
 }
 
 .search-bar button:hover {
-  background-color: #555;
+  background-color: #222;
 }
 
 .welcome-container {
@@ -77,14 +83,14 @@ nav ul li a:hover {
 
 .welcome-container button {
   padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #222;
+  color: white;
   border: none;
   cursor: pointer;
 }
 
 .welcome-container button:hover {
-  background-color: #555;
+  background-color: #222;
 }
 
 .about-us-container {
@@ -119,4 +125,5 @@ nav ul li a:hover {
   .search-bar input[type="text"] {
       width: 100%;
   }
-}
+
+
