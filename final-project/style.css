@@ -21,8 +21,7 @@ header img {
 }
 
 nav ul {
-  display: flex;
-  flex-direction: column; 
+  display: flex; 
   list-style: none;
   padding: 0;
 }
@@ -117,6 +116,13 @@ nav ul li a:hover {
 @media (max-width: 760px) {
   header {
       flex-direction: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+    padding: 0;
   }
    
   nav ul li a:hover {
