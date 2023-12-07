@@ -1,7 +1,123 @@
-@media (max-width: 768px) {
-  
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-@media (min-width: 1200px) {
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+header img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #f1f1f1;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px 10px;
+  width: 150px;
+  border: 1px solid #ddd;
+}
+
+.search-bar button {
+  padding: 8px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #555;
+}
+
+.welcome-container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.welcome-container img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.welcome-container .welcome-text {
+  margin-bottom: 20px;
+}
+
+.welcome-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.welcome-container button:hover {
+  background-color: #555;
+}
+
+.about-us-container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-us-container img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us-container .about-us-text {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  header {
+      flex-direction: column;
+  }
+
+  .search-bar {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  .search-bar input[type="text"] {
+      width: 100%;
+  }
 }
