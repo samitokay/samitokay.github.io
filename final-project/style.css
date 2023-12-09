@@ -51,13 +51,12 @@ nav ul li a:hover {
   border: 1px solid white;
 }
 
-.search-bar search-icon {
+.search-bar .search-icon {
   padding: 10px 10px;
   font-size: 24px;
-  border: 2px dashed orange;
-  border-radius: 100%;
+  border: 2px #c78c06;
   background-color: #222;
-  color: orange;
+  color: #c78c06;
   border: none;
   cursor: pointer;
 }
