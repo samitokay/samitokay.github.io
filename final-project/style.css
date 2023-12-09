@@ -57,11 +57,10 @@ nav ul li a:hover {
   border: 2px #c78c06;
   background-color: #222;
   color: #c78c06;
-  border: none;
   cursor: pointer;
 }
 
-.search-bar button:hover {
+.search-bar .search-icon:hover {
   background-color: #222;
 }
 
