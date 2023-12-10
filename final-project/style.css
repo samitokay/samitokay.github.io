@@ -68,7 +68,6 @@ nav ul li a:hover {
   padding: 0;
   text-align: center;
   position: relative;
-  text-align: center;
 }
 
 .welcome-container img {
@@ -169,34 +168,38 @@ nav ul li a:hover {
  
   .welcome-container .welcome-transbox {
     position: absolute;
-    top: 75px;
-    bottom: 45cdd;
+    top: 50%;
+    left: 50%;
     width: 100%;
-    height: 80%;
+    height: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
   }
 
   .welcome-container h1 {
-    font-size: 24px;
+    font-size: 60px;
     margin-bottom: auto;
     position: absolute;
+    text-align: left;
     top: 10%;
-    left: 50%;
+    left: 35%;
+    width: 100%;
     transform: translate(-50%);
     color: white;
   }
-  
   
   .welcome-container .welcome-text {
     font-size: 24px;
     margin-bottom: 10px;
     position: absolute;
+    text-align: left;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     color: white;
   }
@@ -207,8 +210,8 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     position: absolute;
-    bottom: 10%;
-    left: 50%;
+    bottom: 20%;
+    left: 10%;
     transform: translateX(-50%);
   }
   
