@@ -169,39 +169,51 @@ nav ul li a:hover {
   }
  
   .welcome-container .welcome-transbox {
-    margin: 30px;
-    background-color: red;
-    border: 4px solid black;
-    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome-container h1,
+  .welcome-container .welcome-text,
+  .welcome-container button {
+    color: white;
+    z-index: 1;
   }
 
   .welcome-container h1 {
     font-size: 24px;
     margin-bottom: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
   }
-  
-  
+
   .welcome-container .welcome-text {
     margin-bottom: 20px;
-    color: white;
   }
-  
+
   .welcome-container button {
     padding: 10px 20px;
-    background-color: rgba(34, 34, 34, 0.8);;
-    color: white;
+    background-color: #222;
     border: none;
     cursor: pointer;
   }
-  
+
   .welcome-container button:hover {
     background-color: #222;
   }
+  
+  .welcome-container img {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+}
   
   .about-us-container {
     padding: 50px 0;
