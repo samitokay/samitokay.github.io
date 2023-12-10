@@ -92,10 +92,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-.welcome-container button:hover {
-  background-color: #222;
-}
-
 .about-us-container {
   padding: 50px 0;
   text-align: center;
@@ -193,11 +189,11 @@ nav ul li a:hover {
   }
   
   .welcome-container .welcome-text {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
     position: absolute;
     text-align: left;
-    top: 60%;
+    top: 62%;
     left: 52%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -205,18 +201,15 @@ nav ul li a:hover {
   }
   
   .welcome-container button {
-    padding: 10px 20px;
-    background-color: rgba(34, 34, 34, 0.8);
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
     border: none;
     cursor: pointer;
     position: absolute;
-    bottom: 20%;
-    left: 10%;
+    bottom: 15%;
+    left: 12%;
     transform: translateX(-50%);
-  }
-  
-  .welcome-container button:hover {
-    background-color: #222;
   }
   
   .about-us-container {
