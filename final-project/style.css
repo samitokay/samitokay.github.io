@@ -181,39 +181,35 @@ nav ul li a:hover {
     align-items: center;
   }
 
-  .welcome-container h1,
-  .welcome-container .welcome-text,
   .welcome-container button {
+    padding: 10px 20px;
+    background-color: rgba(34, 34, 34, 0.8);;
     color: white;
-    z-index: 1;
+    border: none
+    cursor: pointer;
+  }
+  
+  .welcome-container button:hover {
+    background-color: #222;
   }
 
   .welcome-container h1 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-
-  .welcome-container .welcome-text {
-    margin-bottom: 20px;
-  }
-
-  .welcome-container button {
-    padding: 10px 20px;
-    background-color: #222;
-    border: none;
-    cursor: pointer;
-  }
-
-  .welcome-container button:hover {
-    background-color: #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
   
-  .welcome-container img {
-    width: 100%;
-    height: auto;
-    z-index: 0;
+  
+  .welcome-container .welcome-text {
+    margin-bottom: 20px;
+    color: red;
   }
-}
+  
+  
   
   .about-us-container {
     padding: 50px 0;
