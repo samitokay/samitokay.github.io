@@ -160,7 +160,6 @@ nav ul li a:hover {
   .welcome-container {
     padding: 0;
     position: relative;
-    text-align: center;
   }
   
   .welcome-container img {
@@ -183,11 +182,11 @@ nav ul li a:hover {
 
   .welcome-container h1 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: auto;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     color: white;
   }
   
