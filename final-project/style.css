@@ -310,11 +310,15 @@ nav ul li a:hover {
   }
 
   .vision-container button {
-    padding: 10px 20px;
-    background-color: #222;
-    color: rgb(27, 27, 27);
-    border: none;
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
     cursor: pointer;
+    position: absolute;
+    bottom: 15%;
+    left: 14%;
+    transform: translateX(-50%);
+    
   }
 
   
