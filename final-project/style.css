@@ -394,7 +394,8 @@ nav ul li a:hover {
   }
 
   .contact-us-container h2 {
-    right: 30px;
+    text-align: left;
+    margin-left: 20px;
   }
   
 
