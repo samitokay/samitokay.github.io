@@ -126,7 +126,7 @@ nav ul li a:hover {
     text-align: center; 
     list-style: none;
     padding: 0;
-    text-align: center;
+
   }
 
   nav ul li a {
@@ -289,10 +289,12 @@ nav ul li a:hover {
   }
 
   .vision-container h2 {
+    position: absolute;
     font-size: 35px;
     margin-bottom: 10px;
-    position:absolute;
-    transform: translateX(-50%);
+    top: 12px;
+    
+  
   }
 
   .vision-container .service-text {
