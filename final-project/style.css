@@ -406,18 +406,18 @@ nav ul li a:hover {
   .contact-us-container input[type="email"],
   .contact-us-container textarea {
     width: 96%;
-    padding: 15px; /* Increase padding for larger input boxes */
+    padding: 15px; 
     margin-bottom: 15px;
     margin-top: -20px;
     border: solid 1px #222;
     border-radius: 4px;
-    box-sizing: border-box; /* Include padding in the width calculation */
+    box-sizing: border-box; 
   }
 
   .contact-us-container input[type="submit"] {
-    width: 30%; /* Increase the width of the submit button */
-    padding: 15px; /* Increase padding for larger button */
-    font-size: 20px; /* Adjust font size for the button */
+    width: 15%; 
+    padding: 10px;
+    font-size: 20px; 
     background-color: #222;
     color: #c78c06;
     border: none;
