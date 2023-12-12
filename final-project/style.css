@@ -280,6 +280,7 @@ nav ul li a:hover {
   .vision-container {
     margin-bottom: 20px;
     text-align: left;
+    position: absolute;
   
   }
 
@@ -289,9 +290,9 @@ nav ul li a:hover {
   }
 
   .vision-container h2 {
-    position: absolute;
+    
     font-size: 35px;
-    margin-bottom: 40px;
+    margin-top: 20px;
 
     
   
