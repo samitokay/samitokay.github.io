@@ -304,7 +304,7 @@ nav ul li a:hover {
   .vision-container .service-text {
     position: absolute;
     margin-bottom: 20px;
-    top: 25px;
+    top: 100px;
     left: 20px;
     color: white;
   }
@@ -312,7 +312,7 @@ nav ul li a:hover {
   .vision-container button {
     padding: 10px 20px;
     background-color: #222;
-    color: white;
+    color: rgb(27, 27, 27);
     border: none;
     cursor: pointer;
   }
