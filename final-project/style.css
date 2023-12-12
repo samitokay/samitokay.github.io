@@ -279,16 +279,14 @@ nav ul li a:hover {
 
   .vision-container {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: left;;
+    text-align: left;
   
   }
 
   .vision-container img {
-      width: 50%; /* Set the width of the image to cover the entire container */
-      height: 60%; /* Set the height to cover 80% of the container */
-      object-fit: cover;
+    width: 120%; /* Increase the width of the image to cover more horizontally */
+    height: 80%; /* Set the height to cover 80% of the container */
+    object-fit: cover;
     
   }
 
