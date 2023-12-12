@@ -384,8 +384,9 @@ nav ul li a:hover {
 
   .contact-us-container h1 {
     text-align: left; 
-    margin-bottom: 10px;
+  
   }
+
 
   .contact-us-container form {
     max-width: 100%; 
@@ -399,25 +400,26 @@ nav ul li a:hover {
     margin-left: 20px;
   }
 
-  .contact-us-container input[type="text"], .contact-us-container input[type="email"], .contact-us-container textarea {
+  .contact-us-container input[type="text"],
+  .contact-us-container input[type="email"],
+  .contact-us-container textarea {
     width: 100%;
-   
+    /* Increase padding for larger input boxes */
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
 
-.contact-us-container input[type="submit"] {
-  width: 11%;
-  padding: 10px;
-  font-size: 25px;
-  background-color: #222;
-  color: #c78c06;
-  border: none;
-  cursor: pointer;
-  
-}
+  .contact-us-container input[type="submit"] {
+    width: 30%; /* Increase the width of the submit button */
+    padding: 15px; /* Increase padding for larger button */
+    font-size: 20px; /* Adjust font size for the button */
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    cursor: pointer;
+  }
   
 
   
