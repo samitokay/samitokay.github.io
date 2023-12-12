@@ -6,8 +6,6 @@ body {
   color: #222;
 }
 
-@media (max-width: 1201px) {
-
 header {
   display: flex;
   justify-content: space-between;
@@ -138,9 +136,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-}
-
-@media (min-width: 760px) and (max-width: 1200x) {
+@media (max-width: 1200px) and (min-width: 760px) {
   
   header {
     flex-direction: column;
@@ -148,7 +144,8 @@ nav ul li a:hover {
 
   header img {
     margin-bottom: 10px;
-   
+    margin-right: 5px;
+    
   }
 
   nav ul {
