@@ -284,8 +284,8 @@ nav ul li a:hover {
   }
 
   .vision-container img {
-    width: 100px; /* Increase the width of the image to cover more horizontally */
-    height: 2000px; /* Set the height to cover 80% of the container */
+    width: 100%; /* Increase the width of the image to cover more horizontally */
+    height: 120px; /* Set the height to cover 80% of the container */
   }
 
   
