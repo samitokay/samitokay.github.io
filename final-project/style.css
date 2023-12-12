@@ -348,6 +348,12 @@ nav ul li a:hover {
     position: relative;
   }
 
+  .team-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
   .team-container h3:after {
     content: "";
     display: block;
