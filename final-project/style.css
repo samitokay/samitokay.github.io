@@ -279,12 +279,17 @@ nav ul li a:hover {
 
   .vision-container {
     display: flex; /* Use flexbox */
+    position: relative; /* Position relative for absolute positioning of text */
+    margin-bottom: 20px; /* Add margin between vision container and other containers */
+    overflow: hidden;
   
   }
 
   .vision-container img {
-    width: 50%; /* Set the width of the image to cover the entire container */
-    object-fit: cover; /* Ensure the image covers the container */
+    .vision-container img {
+      width: 100%; /* Set the width of the image to cover the entire container */
+      height: 80%; /* Set the height to cover 80% of the container */
+      object-fit: cover;
     
   }
   
