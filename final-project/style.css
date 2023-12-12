@@ -351,7 +351,7 @@ nav ul li a:hover {
   .team-container h3 {
     font-size: 20px;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: -15px;
     position: relative;
   }
 
@@ -362,7 +362,7 @@ nav ul li a:hover {
     height: 3px; /* Adjust the height of the line */
     background-color: #c78c06; /* Orange color */
     position: absolute;
-    bottom: -5px; /* Adjust the distance from the text */
+    bottom: -10px; /* Adjust the distance from the text */
   }
 
   .team-container .team-text {
