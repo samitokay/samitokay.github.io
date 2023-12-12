@@ -98,15 +98,23 @@ nav ul li a:hover {
   margin-bottom: auto;
   position: absolute;
   text-align: left;
-  top: 5%;
+  top: -5%;
   left: 55%;
   width: 100%;
   transform: translate(-50%);
   color: white;
 }
 
-.welcome-container .welcome-text {
-  margin-bottom: 20px;
+.welcome-transbox .welcome-text {
+  font-size: 16px;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: left;
+    top: 62%;
+    left: 52%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .welcome-container button {
@@ -190,7 +198,7 @@ nav ul li a:hover {
     height: auto;
   }
  
-  .welcome-container .welcome-transbox {
+  .welcome-transbox {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -204,7 +212,7 @@ nav ul li a:hover {
     
   }
 
-  .welcome-container h1 {
+  .welcome-transbox h1 {
     font-size: 75px;
     margin-bottom: auto;
     position: absolute;
@@ -216,7 +224,7 @@ nav ul li a:hover {
     color: white;
   }
   
-  .welcome-container .welcome-text {
+  .welcome-transbox .welcome-text {
     font-size: 16px;
     margin-bottom: 10px;
     position: absolute;
@@ -228,7 +236,7 @@ nav ul li a:hover {
     color: white;
   }
   
-  .welcome-container button {
+  .welcome-transbox button {
     padding: 25px 30px;
     background-color: #c78c06;
     color: #222;
