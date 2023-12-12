@@ -300,7 +300,6 @@ nav ul li a:hover {
 
   }
 
-
   .vision-container .service-text {
     position: absolute;
     margin-bottom: 20px;
@@ -320,9 +319,51 @@ nav ul li a:hover {
     color: white;
     cursor: pointer;
     position: absolute;
-    
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+  }
+
+  .team-container {
     
   }
+
+  .team-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 0 0 8px; 
+  }
+
+  .team-container .text-container {
+    flex: 1; 
+    background-color: #f0f0f0; 
+    box-sizing: border-box; 
+  }
+
+  .team-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .team-container .team-text {
+    margin-bottom: 20px;
+  }
+
+  
+  .team-container .text-container {
+    background-size: cover; 
+    background-position: center;
+  }
+
+  
+  .team-container:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+
 
   
   
