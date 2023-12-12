@@ -390,12 +390,13 @@ nav ul li a:hover {
   .contact-us-container h2 {
     text-align: left;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 34px;
   }
 
   .contact-us-container form {
     max-width: 100%; 
     margin-left: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
   }
