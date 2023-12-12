@@ -390,6 +390,7 @@ nav ul li a:hover {
   .contact-us-container form {
     max-width: 100%; 
     margin-left: 20px;
+    box-sizing: border-box;
   }
 
   .contact-us-container h2 {
