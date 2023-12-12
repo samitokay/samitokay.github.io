@@ -81,7 +81,7 @@ nav ul li a:hover {
 
 .welcome-transbox {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   width: 80%;
   height: 70%;
@@ -99,7 +99,7 @@ nav ul li a:hover {
   position: absolute;
   text-align: left;
   top: 5%;
-  left: 62%;
+  left: 55%;
   width: 100%;
   transform: translate(-50%);
   color: white;
