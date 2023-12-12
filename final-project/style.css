@@ -358,11 +358,11 @@ nav ul li a:hover {
   .team-container h3:after {
     content: "";
     display: block;
-    width: 50px; /* Adjust the width of the line */
+    width: 150px; /* Adjust the width of the line */
     height: 3px; /* Adjust the height of the line */
     background-color: #c78c06; /* Orange color */
     position: absolute;
-    bottom: 2px; /* Adjust the distance from the text */
+    bottom: -1px; /* Adjust the distance from the text */
   }
 
   .team-container .team-text {
