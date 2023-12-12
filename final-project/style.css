@@ -409,14 +409,13 @@ nav ul li a:hover {
 }
 
 .contact-us-container input[type="submit"] {
-  width: 10%;
+  width: 12%;
   padding: 10px;
   font-size: 25px;
   background-color: #222;
   color: #c78c06;
   border: none;
   cursor: pointer;
-  font-size: 25px;
   
 }
   
