@@ -93,15 +93,12 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.welcome-container h1 {
+.welcome-transbox h1 {
   font-size: 75px;
   margin-bottom: auto;
   position: absolute;
   text-align: left;
-  top: 5%;
-  left: 62%;
-  width: 100%;
-  transform: translate(-50%);
+  
   color: white;
 }
 
