@@ -1,3 +1,5 @@
+@media (max-width: 760px) {
+
 body {
   font-family: 'Open Sans';
   line-height: 1.6;
@@ -134,6 +136,8 @@ nav ul li a:hover {
 
 .about-us-container .about-us-text {
   margin-bottom: 20px;
+}
+
 }
 
 @media (max-width: 1200px) and (min-width: 760px) {
