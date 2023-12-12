@@ -404,9 +404,9 @@ nav ul li a:hover {
   .contact-us-container input[type="email"],
   .contact-us-container textarea {
     width: 96%;
-    padding: 10px; /* Increase padding for larger input boxes */
+    padding: 5px; /* Increase padding for larger input boxes */
     margin-bottom: 15px;
-    border: solid 3px #222;
+    border: solid 1px #222;
     border-radius: 4px;
     box-sizing: border-box; /* Include padding in the width calculation */
   }
