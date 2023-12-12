@@ -295,11 +295,11 @@ nav ul li a:hover {
     color: white;
     width: 80%;
     left: 10%;
-  
+  }
 
   .vision-container h2 {
     position: absolute;
-    transform: translate(-50%);
+    top: 30%;
     margin-bottom: 20px;
     font-size: 35px;
 
