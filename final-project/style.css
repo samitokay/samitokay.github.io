@@ -379,40 +379,23 @@ nav ul li a:hover {
   }
 
   .contact-us-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    
-}
+    width: 100%; /* Make the container full-width */
+  }
 
-/* Form Styles */
-.contact-us-container form {
-    display: flex;
-    flex-direction: column;
-}
+  .contact-us-container h1 {
+    text-align: left; /* Align the "Contact Us" text to the left */
+    margin-bottom: 10px; /* Add some space between the heading and the form */
+  }
 
-/* Input Fields */
-.contact-us-container input[type="text"],
-.contact-us-container input[type="email"],
-.contact-us-container textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
+  /* Optional: Adjust other styles for better mobile responsiveness */
+  .contact-us-container form {
+    max-width: 100%; /* Make the form width 100% */
+    margin: 0 auto; /* Center the form */
+  }
 
-/* Submit Button */
-.contact-us-container input[type="submit"] {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
+  .contact-us-container h2 {
+    text-align:justify
+  }
   
 
   
