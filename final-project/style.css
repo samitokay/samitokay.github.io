@@ -280,6 +280,7 @@ nav ul li a:hover {
   .vision-container {
     margin-bottom: 20px;
     text-align: left;
+    position: relative;
   
   }
 
@@ -288,14 +289,6 @@ nav ul li a:hover {
     height: 280px; 
   }
 
-  .vision-container h2,
-  .vision-container .service-text,
-  .vision-container button {
-    position: absolute;
-    color: white;
-    width: 80%;
-    left: 10%;
-  }
 
   .vision-container h2 {
     position: absolute;
