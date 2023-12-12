@@ -316,6 +316,7 @@ nav ul li a:hover {
     top: 210px;
     left: 20px;
     background-color: rgba(0, 0, 0, 0.2);
+    border-color: #c78c06;
     color: #222;
     cursor: pointer;
     position: absolute;
