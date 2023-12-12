@@ -345,9 +345,10 @@ nav ul li a:hover {
   .team-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
+    position: relative;
   }
 
-  .team-container h2:after {
+  .team-container h3:after {
     content: "";
     display: block;
     width: 50px; /* Adjust the width of the line */
