@@ -387,6 +387,11 @@ nav ul li a:hover {
   
   }
 
+  .contact-us-container h2 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 24px;
+  }
 
   .contact-us-container form {
     max-width: 100%; 
@@ -395,19 +400,13 @@ nav ul li a:hover {
     flex-direction: column;
   }
 
-  .contact-us-container h2 {
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 0;
-  }
-
   .contact-us-container input[type="text"],
   .contact-us-container input[type="email"],
   .contact-us-container textarea {
     width: 96%;
-    padding: 20px; /* Increase padding for larger input boxes */
+    padding: 15px; /* Increase padding for larger input boxes */
     margin-bottom: 15px;
-    margin-top: -10px;
+    margin-top: -20px;
     border: solid 1px #222;
     border-radius: 4px;
     box-sizing: border-box; /* Include padding in the width calculation */
