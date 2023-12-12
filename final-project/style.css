@@ -292,7 +292,8 @@ nav ul li a:hover {
 
   .vision-container h2 {
     position: absolute;
-    bottom: 2%;
+    bottom: 5px;
+    
     font-size: 35px;
     margin-bottom: 20px;  
  
