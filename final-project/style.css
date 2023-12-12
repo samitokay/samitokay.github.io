@@ -279,12 +279,11 @@ nav ul li a:hover {
 
   .vision-container {
     display: flex; /* Use flexbox */
-    justify-content: center; /* Center the vision container horizontally */
+  
   }
 
   .vision-container img {
-    width: 100%; /* Set the width of the image to cover the entire container */
-    height: 20%; /* Set the height to cover the entire container */
+    width: 50%; /* Set the width of the image to cover the entire container */
     object-fit: cover; /* Ensure the image covers the container */
     
   }
