@@ -139,7 +139,7 @@ nav ul li a:hover {
 @media (max-width: 1200px) and (min-width: 760px) {
   
   header {
-    9flex-direction: column;
+    flex-direction: column;
   }
 
   header img {
