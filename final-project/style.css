@@ -315,7 +315,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
     top: 210px;
     left: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     color: #222;
     cursor: pointer;
     position: absolute;
