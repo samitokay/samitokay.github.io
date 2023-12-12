@@ -327,7 +327,7 @@ nav ul li a:hover {
     margin-left: 20px;
   }
 
-  .john-container {
+  .team-container {
     padding: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
@@ -337,25 +337,25 @@ nav ul li a:hover {
     
   }
 
-  .john-container img {
+  .team-container img {
     width: 100%;
     height: auto;
   }
 
-  .john-container h2 {
+  .team-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
     position: relative;
   }
 
-  .john-container h3 {
+  .team-container h3 {
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: -15px;
     position: relative;
   }
 
-  .john-container h3:after {
+  .team-container h3:after {
     content: "";
     display: block;
     width: 100%; 
@@ -365,18 +365,21 @@ nav ul li a:hover {
     bottom: -1px; 
   }
 
-  .john-container .team-text {
+  .team-container .team-text {
     margin-bottom: 20px;
   }
   
 
-  .john-container button {
+  .team-container button {
     padding: 10px 20px;
     background-color: #222;
     color: white;
     border: none;
     cursor: pointer;
   }
+   
+  
+  
   
 
   
