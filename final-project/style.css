@@ -322,50 +322,44 @@ nav ul li a:hover {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 45px;
     margin-bottom: 20px;
-    margin-left: 10px; 
+    margin-left: 20px;
   }
 
   .team-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffe6ac;
     
   }
 
   .team-container img {
-    width: 50%;
+    width: 100%;
     height: auto;
-    border-radius: 8px 0 0 8px; 
-  }
-
-  .team-container .text-container {
-    flex: 1; 
-    background-color: #f0f0f0; 
-    box-sizing: border-box; 
   }
 
   .team-container h2 {
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 10px;
   }
 
   .team-container .team-text {
     margin-bottom: 20px;
   }
-
   
-  .team-container .text-container {
-    background-size: cover; 
-    background-position: center;
+
+  .team-container button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
   }
 
-  
-  .team-container:not(:last-child) {
-    margin-bottom: 20px;
-  }
-
-
-
-  
   
 }
 
