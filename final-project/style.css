@@ -98,7 +98,10 @@ nav ul li a:hover {
   margin-bottom: auto;
   position: absolute;
   text-align: left;
-  
+  top: 5%;
+  left: 62%;
+  width: 100%;
+  transform: translate(-50%);
   color: white;
 }
 
