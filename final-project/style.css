@@ -313,6 +313,7 @@ nav ul li a:hover {
     position: absolute;
     padding: 25px 30px;
     margin-bottom: 20px;
+    top: 150px;
     left: 20px;
     background-color: #c78c06;
     color: #222;
