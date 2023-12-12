@@ -415,7 +415,8 @@ nav ul li a:hover {
   color: #c78c06;
   border: none;
   cursor: pointer;
-  size: 20px;
+  font-size: 25px;
+  text-align: center;
 }
   
 
