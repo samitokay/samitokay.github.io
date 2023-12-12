@@ -79,7 +79,7 @@ nav ul li a:hover {
   height: 800px;
 }
 
-.welcome-container .welcome-transbox {
+.welcome-transbox {
   position: absolute;
   top: 40%;
   left: 50%;
