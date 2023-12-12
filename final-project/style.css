@@ -403,10 +403,10 @@ nav ul li a:hover {
   .contact-us-container input[type="text"],
   .contact-us-container input[type="email"],
   .contact-us-container textarea {
-    width:60px;
+    width: 96%;
     padding: 10px; /* Increase padding for larger input boxes */
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
+    
+    border: 1px #222;
     border-radius: 4px;
     box-sizing: border-box; /* Include padding in the width calculation */
   }
