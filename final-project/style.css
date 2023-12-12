@@ -6,6 +6,7 @@ body {
   color: #222;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -15,22 +16,26 @@ header {
   overflow: hidden;
 }
 
+
 header img {
   width: 100px;
   height: auto;
   margin-left: 5%;
 }
 
+
 nav ul {
-  display: flex; 
+  display: flex;
   list-style: none;
   padding: 0;
 }
 
+
 nav ul li {
-  margin-right: 30px; 
-  
+  margin-right: 30px;
+ 
 }
+
 
 nav ul li a {
   display: block;
@@ -39,21 +44,25 @@ nav ul li a {
   color: #c78c06;
 }
 
+
 nav ul li a:hover {
   background-color: #c78c06;
   color: #222;
 }
+
 
 .search-bar {
   display: flex;
   margin-right: 5%;
 }
 
+
 .search-bar input[type="text"] {
   padding: 10px 10px;
   width: 200px;
   border: 1px solid white;
 }
+
 
 .search-bar .search-icon {
   padding: 10px 10px;
@@ -64,9 +73,11 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+
 .search-bar .search-icon:hover {
   background-color: #222;
 }
+
 
 .welcome-container {
   padding: 0;
@@ -74,10 +85,12 @@ nav ul li a:hover {
   position: relative;
 }
 
+
 .welcome-container img {
   width: 100%;
   height: 600px;
 }
+
 
 .welcome-transbox {
   position: absolute;
@@ -93,6 +106,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
+
 .welcome-transbox h1 {
   font-size: 75px;
   margin-bottom: auto;
@@ -104,6 +118,7 @@ nav ul li a:hover {
   transform: translate(-50%);
   color: white;
 }
+
 
 .welcome-transbox .welcome-text {
   font-size: 16px;
@@ -117,6 +132,7 @@ nav ul li a:hover {
     color: white;
 }
 
+
 .welcome-transbox button {
     padding: 25px 30px;
     background-color: #c78c06;
@@ -129,6 +145,7 @@ nav ul li a:hover {
     transform: translateX(-50%);
 }
 
+
 .about-us-container {
   margin-top: -10px;
   padding: 50px 0;
@@ -136,26 +153,30 @@ nav ul li a:hover {
   background-color: #ffe6ac;
 }
 
+
 .about-us-container img {
   margin-top: -10px;
   width: 40%;
   height: 50%;
-  margin-right: 30px; 
-  margin-left: 50px; 
+  margin-right: 30px;
+  margin-left: 50px;
   float: left;
 }
 
+
 .about-us-container h1 {
-  
+ 
   font-size: 48px;
   margin-bottom: 5px;
-  margin-right: 50px; 
-  margin-left: 20px; 
+  margin-right: 50px;
+  margin-left: 20px;
 }
+
 
 .about-us-container .about-us-text {
   margin-bottom: 20px;
 }
+
 
 .service-container {
   display: flex;
@@ -170,21 +191,25 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
+
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+
 .service-text {
   text-align: center;
   margin-bottom: 10px;
 }
+
 
 button {
   padding: 10px 20px;
@@ -196,30 +221,36 @@ button {
   margin-bottom: 10px;
 }
 
+
 button:hover {
   background-color: #0056b3;
 }
 
+
 @media (max-width: 1200px) and (min-width: 760px) {
-  
+ 
   header {
     flex-direction: column;
   }
 
+
   header img {
     margin-bottom: 10px;
     margin-right: 5px;
-    
+   
   }
+
 
   nav ul {
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
     list-style: none;
     padding: 0;
 
+
   }
+
 
   nav ul li a {
     display: block;
@@ -232,23 +263,26 @@ button:hover {
   nav ul li a:hover {
   background-color: #c78c06;
   color: #222;
-    
+   
   }
+
 
   .search-bar {
       width: 95%;
       margin-top: 10px;
   }
 
+
   .search-bar input[type="text"] {
       width: 95%;
   }
+
 
   .welcome-container {
     padding: 0;
     position: relative;
   }
-  
+ 
   .welcome-container img {
     width: 100%;
     height: auto;
@@ -265,8 +299,9 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+   
   }
+
 
   .welcome-transbox h1 {
     font-size: 75px;
@@ -279,7 +314,7 @@ button:hover {
     transform: translate(-50%);
     color: white;
   }
-  
+ 
   .welcome-transbox .welcome-text {
     font-size: 16px;
     margin-bottom: 10px;
@@ -291,7 +326,7 @@ button:hover {
     transform: translate(-50%, -50%);
     color: white;
   }
-  
+ 
   .welcome-transbox button {
     padding: 25px 30px;
     background-color: #c78c06;
@@ -302,39 +337,41 @@ button:hover {
     left: 14%;
     transform: translateX(-50%);
   }
-  
+ 
   .about-us-container {
     padding: 50px 0;
     margin-top: -20px;
     text-align: center;
     background-color: #ffe6ac;
   }
-  
+ 
   .about-us-container img {
     width: 95%;
     margin: -20px;
     height: auto;
   }
-  
+ 
   .about-us-container h1 {
     font-size: 45px;
     margin-bottom: 10px;
     margin-left: 20px;
     text-align: left;
-    
+   
   }
-  
+ 
   .about-us-container .about-us-text {
     margin-bottom: 20px;
     margin-left: 20px;
     text-align: left;
   }
 
+
   h1 {
     font-size: 45px;
     margin-bottom: 20px;
     margin-left: 20px;
   }
+
 
   .service-container {
     padding: 20px;
@@ -343,23 +380,27 @@ button:hover {
     margin-right: 20px;
     text-align: left;
     background-color: #ffe6ac;
-    
+   
   }
+
 
   .service-container img {
     width: 100%;
     height: auto;
   }
 
+
   .service-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
   }
 
+
   .service-container .service-text {
     margin-bottom: 20px;
   }
-  
+ 
+
 
   .service-container button {
     padding: 10px 20px;
@@ -369,17 +410,21 @@ button:hover {
     cursor: pointer;
   }
 
+
   .vision-container {
     margin-bottom: 20px;
     text-align: left;
     position: relative;
-  
+ 
   }
+
 
   .vision-container img {
     width: 100%;
-    height: 300px; 
+    height: 300px;
   }
+
+
 
 
   .vision-container h2 {
@@ -390,7 +435,9 @@ button:hover {
     font-size: 35px;
     color: white;
 
+
   }
+
 
   .vision-container .vision-text {
     position: absolute;
@@ -399,6 +446,7 @@ button:hover {
     left: 20px;
     color: white;
   }
+
 
   .vision-container button {
     position: absolute;
@@ -413,11 +461,13 @@ button:hover {
     position: absolute;
   }
 
+
   h1 {
     font-size: 45px;
     margin-bottom: 20px;
     margin-left: 20px;
   }
+
 
   .team-container {
     padding: 20px;
@@ -426,19 +476,22 @@ button:hover {
     margin-right: 20px;
     text-align: left;
     background-color: #ffe6ac;
-    
+   
   }
+
 
   .team-container img {
     width: 100%;
     height: auto;
   }
 
+
   .team-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
     position: relative;
   }
+
 
   .team-container h3 {
     font-size: 20px;
@@ -447,20 +500,23 @@ button:hover {
     position: relative;
   }
 
+
   .team-container h3:after {
     content: "";
     display: block;
-    width: 100%; 
-    height: 3px; 
-    background-color: #c78c06; 
+    width: 100%;
+    height: 3px;
+    background-color: #c78c06;
     position: absolute;
-    bottom: -1px; 
+    bottom: -1px;
   }
+
 
   .team-container .team-text {
     margin-bottom: 20px;
   }
-  
+ 
+
 
   .team-container button {
     padding: 10px 20px;
@@ -470,14 +526,17 @@ button:hover {
     cursor: pointer;
   }
 
+
   .contact-us-container {
-    width: 100%; 
+    width: 100%;
   }
 
+
   .contact-us-container h1 {
-    text-align: left; 
-  
+    text-align: left;
+ 
   }
+
 
   .contact-us-container h2 {
     text-align: left;
@@ -486,51 +545,50 @@ button:hover {
     font-size: 34px;
   }
 
+
   .contact-us-container form {
-    max-width: 100%; 
+    max-width: 100%;
     margin-left: 20px;
     margin-top: -25px;
     display: flex;
     flex-direction: column;
   }
 
+
   .contact-us-container input[type="text"],
   .contact-us-container input[type="email"],
   .contact-us-container textarea {
     width: 96%;
-    padding: 15px; 
+    padding: 15px;
     margin-bottom: 15px;
     margin-top: -20px;
     border: solid 1px #222;
     border-radius: 4px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
 
+
   .contact-us-container input[type="submit"] {
-    width: 10%; 
+    width: 10%;
     padding: 8px;
     font-size: 25px;
-    margin-top: -25px; 
+    margin-top: -25px;
     background-color: #222;
     color: #c78c06;
     border: none;
     cursor: pointer;
   }
-  
+ 
   .operation-time-container {
     width: 300px;
     margin: 0 auto;
     text-align: left;
 }
 
- .operation-time-container h1 {
-  
-    
-}
-
 .operation-time-container p {
     margin: 0;
 }
+
 
 .table-row {
     display: flex;
@@ -538,16 +596,18 @@ button:hover {
     margin-bottom: 5px;
 }
 
+
 .days {
     font-size: 18px;
     font-weight: bold;
 }
+
 
 .hours {
     font-size: 16px;
     color: #888;
 }
 
-  
-}
 
+ 
+}
