@@ -377,50 +377,7 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
   }
-   
-  /* Contact Us Container */
-.contact-us-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-}
 
-/* Form Styles */
-.contact-us-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Input Fields */
-.contact-us-container input[type="text"],
-.contact-us-container input[type="email"],
-.contact-us-container textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-/* Submit Button */
-.contact-us-container input[type="submit"] {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-/* Labels */
-.contact-us-container label {
-  font-size: 16px;
-  font-weight: bold;
-}
   
   
 
