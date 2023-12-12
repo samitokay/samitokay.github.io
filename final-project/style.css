@@ -81,7 +81,7 @@ nav ul li a:hover {
 
 .welcome-transbox {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   width: 80%;
   height: 50%;
@@ -110,7 +110,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     position: absolute;
     text-align: left;
-    top: 50%;
+    top: 60%;
     left: 55%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -118,11 +118,14 @@ nav ul li a:hover {
 }
 
 .welcome-container button {
-  padding: 10px 20px;
-  background-color: #222;
-  color: white;
-  border: none;
-  cursor: pointer;
+  padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15%;
+    left: 14%;
+    transform: translateX(-50%);
 }
 
 .about-us-container {
