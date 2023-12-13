@@ -227,7 +227,7 @@ button:hover {
 }
 
 
-@media * (min-width: 760px) {
+@media (max-width: 1200px) and (min-width: 760px) {
  
   header {
     flex-direction: column;
@@ -584,6 +584,7 @@ button:hover {
     margin: 0 auto;
     text-align: left;
 }
+
 
 .operation-time-container p {
     margin: 0;
