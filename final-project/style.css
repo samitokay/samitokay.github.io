@@ -227,7 +227,7 @@ button:hover {
 }
 
 
-@media (max-width: 1200px) and (min-width: 760px) {
+@media * (min-width: 760px) {
  
   header {
     flex-direction: column;
