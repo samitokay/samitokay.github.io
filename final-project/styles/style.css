@@ -278,7 +278,7 @@ footer {
   }
   
   
-  .service-container {
+  .digital-container {
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
@@ -290,30 +290,187 @@ footer {
   }
   
   
-  .service-container img {
+  .digital-container img {
     width: 100%;
     height: auto;
   }
   
   
-  .service-container h2 {
+  .digital-container h2 {
     font-size: 35px;
     margin-bottom: 10px;
   }
   
   
-  .service-container .service-text {
+  .digital-container .service-text {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .digital.container button {
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+
+  }
+
+  .marketing-container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffe6ac;
+   
+  }
+  
+  
+  .marketing-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .marketing-container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .marketing-container .service-text {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .marketing.container button {
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+
+  }
+
+  .video-container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffe6ac;
+   
+  }
+  
+  
+  .video-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .video-container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .video-container .service-text {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .video.container button {
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+
+  }
+
+  .web-container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffe6ac;
+   
+  }
+  
+  
+  .web-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .web-container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .web-container .service-text {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .web.container button {
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+
+  }
+
+  .print-container {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: #ffe6ac;
+   
+  }
+  
+  
+  .print-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .print-container h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .print-container .service-text {
     margin-bottom: 20px;
   }
   
   
   
   .service-container button {
-    padding: 10px 20px;
-    background-color: #222;
-    color: white;
-    border: none;
+    padding: 25px 30px;
+    background-color: #c78c06;
+    color: #222;
     cursor: pointer;
+    position: absolute;
+
   }
   
   
@@ -348,7 +505,7 @@ footer {
   .vision-container .vision-text {
     position: absolute;
     margin-bottom: 20px;
-    top: 100px;
+    top: 200px;
     left: 20px;
     color: white;
   }
