@@ -125,19 +125,16 @@ footer {
   padding: 10px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 760px) {
 
   header {
     flex-direction: column;
   }
   
-  
   header img {
     margin-bottom: 10px;
     margin-right: 5px;
-   
   }
-  
   
   nav ul {
     display: flex;
@@ -145,10 +142,7 @@ footer {
     text-align: center;
     list-style: none;
     padding: 0;
-  
-  
   }
-  
   
   nav ul li a {
     display: block;
@@ -159,22 +153,18 @@ footer {
   }
    
   nav ul li a:hover {
-  background-color: #c78c06;
-  color: #222;
-   
+    background-color: #c78c06;
+    color: #222;
   }
-  
   
   .search-bar {
-      width: 95%;
-      margin-top: 10px;
+    width: 95%;
+    margin-top: 10px;
   }
-  
   
   .search-bar input[type="text"] {
-      width: 95%;
+    width: 95%;
   }
-  
   
   .welcome-container {
     padding: 0;
@@ -197,9 +187,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
   }
-  
   
   .welcome-transbox h1 {
     font-size: 75px;
@@ -512,7 +500,7 @@ footer {
   
   }
 
-@media (min-width: 760px) {
+@media screen and (min-width: 1200px) {
 header {
 display: flex;
 justify-content: space-between;
@@ -691,54 +679,30 @@ margin-bottom: 20px;
 }
 
 
+
 .service-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border: 1px solid #ddd;
-border-radius: 5px;
-padding: 20px;
-margin: 10px;
-max-width: 300px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
-
-img {
-max-width: 100%;
-height: auto;
-margin-bottom: 10px;
+.digital-container,
+.marketing-container {
+  flex: 0 0 40%;
+  margin:10px;
+  text-align: left;
 }
-
-
-h2 {
-font-size: 24px;
-margin-bottom: 10px;
-}
-
-
-.service-text {
-text-align: center;
-margin-bottom: 10px;
-}
-
-
-button {
-padding: 10px 20px;
-background-color: #007BFF;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-margin-bottom: 10px;
-}
-
-
-button:hover {
-background-color: #0056b3;
+.video-container,
+.web-container,
+.print-container {
+  flex: 0 0 20%;
+  margin:10px;
+  text-align: left;
 }
 
 }
+ 
+
 
 
