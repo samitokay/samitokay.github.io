@@ -308,10 +308,10 @@ footer {
   
   
   
-  .digital.container button {
+  .digital-container button {
     padding: 25px 30px;
-    background-color: #c78c06;
-    color: #222;
+    background-color: #222;
+    color: white;
     cursor: pointer;
     position: absolute;
 
@@ -347,10 +347,10 @@ footer {
   
   
   
-  .marketing.container button {
+  .marketing-container button {
     padding: 25px 30px;
-    background-color: #c78c06;
-    color: #222;
+    background-color: #222;
+    color: white;
     cursor: pointer;
     position: absolute;
 
@@ -386,10 +386,10 @@ footer {
   
   
   
-  .video.container button {
+  .video-container button {
     padding: 25px 30px;
-    background-color: #c78c06;
-    color: #222;
+    background-color: #222;
+    color: white;
     cursor: pointer;
     position: absolute;
 
@@ -425,10 +425,10 @@ footer {
   
   
   
-  .web.container button {
+  .web-container button {
     padding: 25px 30px;
-    background-color: #c78c06;
-    color: #222;
+    background-color: #222;
+    color: white;
     cursor: pointer;
     position: absolute;
 
@@ -464,10 +464,10 @@ footer {
   
   
   
-  .service-container button {
+  .print-container button {
     padding: 25px 30px;
-    background-color: #c78c06;
-    color: #222;
+    background-color: #222;
+    color: white;
     cursor: pointer;
     position: absolute;
 
@@ -505,7 +505,7 @@ footer {
   .vision-container .vision-text {
     position: absolute;
     margin-bottom: 20px;
-    top: 200px;
+    top: 100px;
     left: 20px;
     color: white;
   }
